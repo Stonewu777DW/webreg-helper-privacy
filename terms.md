@@ -10,7 +10,7 @@ WebReg Helper for USC Students ("WebReg Helper") is a free, unofficial Chrome ex
 
 ## The extension
 
-WebReg Helper adds tools to USC's WebReg and catalogue pages. It is provided as is, without warranty. Seat counts, requirements and course data come from USC's public pages and may be wrong or out of date. Always check official USC sources and your advisor before registering. The developer is not responsible for missed registrations, seats or requirements.
+WebReg Helper adds tools to USC's WebReg and catalogue pages. It is provided as is, without warranty. Seat counts, requirements and course data come from USC's public pages and may be wrong or out of date. Always check official USC sources and your advisor before registering. The developer is not responsible for missed registrations, seats or requirements. Auto-checkout submits registration on your own WebReg session only for the classes or schedule you queue; you are responsible for what it registers or drops and for following USC registration policies.
 
 ## Notify Me alerts
 
