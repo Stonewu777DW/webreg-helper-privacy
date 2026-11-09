@@ -6,11 +6,13 @@ title: "Privacy Policy: WebReg Helper for USC Students"
 
 Last updated: November 9, 2026
 
+WebReg Helper is operated by Yushi Wu, a sole proprietor, doing business as WebReg Helper. Website: https://worthathought.work/projects/webreg-helper/
+
 WebReg Helper for USC Students is an unofficial Chrome extension made by a USC student. It is not affiliated with or endorsed by the University of Southern California.
 
 ## What stays on your computer
 
-Everything the extension saves is kept in your browser's own extension storage (`chrome.storage`) on your computer. Apart from the Notify Me alerts you ask for and anonymous course sharing if you turn it on (both below), none of it is sent to the developer or to any server the developer runs. That includes:
+Everything the extension saves is kept in your browser's own extension storage (`chrome.storage`) on your computer. Apart from the Notify Me alerts you ask for (below), none of it is sent to the developer or to any server the developer runs. That includes:
 
 - The majors, minors and catalogue year you pick, and the courses you tick as taken.
 - What the extension reads from a STARS degree progress report you choose to upload: your courses, the terms you took them, your programs and their catalogue years. The PDF is read inside your browser. Your name, student ID, address and grades are not kept.
@@ -23,14 +25,14 @@ Removing the extension deletes all of it. **Remove STARS report** in the myRequi
 
 ## What the extension connects to
 
-The extension shows no ads and sends no usage data unless you turn on anonymous course sharing (below). It only talks to these sites:
+The extension shows no ads and sends no usage data. It only talks to these sites:
 
 - **webreg.usc.edu**: the WebReg pages you're already signed in to, such as other pages of a course list and your myCourseBin.
 - **catalogue.usc.edu**: never contacted. The 2021-22 to 2026-27 catalogues are built into the extension.
 - **classes.usc.edu**: only for sections you queue for auto-checkout, the term, course code and section number, to read USC's public seat counts. No sign-in is sent.
 - **usc.simplesyllabus.com**: course codes and titles, to find syllabi in USC's syllabus library. This uses your own Simple Syllabus sign-in, and the extension never sees your password.
 - **ratemyprofessors.com**: instructor names from the section you're viewing, to show their public ratings.
-- **usc-webreg-notify.stonewu777.workers.dev**: the developer's server, only when you ask for a seat alert or turn on anonymous course sharing (below).
+- **usc-webreg-notify.stonewu777.workers.dev**: the developer's server, only when you ask for a seat alert.
 
 ## Notify Me
 
@@ -40,17 +42,9 @@ While an alert is waiting, the extension asks the server about once a minute whe
 
 Your email and phone number are used only to send those alerts. They are never used for marketing, never shared and never sold. To cancel an alert, press **Stop these alerts** at the bottom of any alert email, which deletes it with your email and number. You can also write to the contact address below.
 
-## Anonymous course sharing
-
-The first time you open the myRequirement panel, it asks whether you want to share your classes anonymously. It stays off unless you press **Share**, and you can turn it on or off any time with **Share my classes anonymously** at the bottom of the panel. It collects data to improve course recommendations and to build future features, such as showing which majors and years take each class and how likely you are to get a seat. It also shows which classes are popular, when students register, and how fast sections fill. Nothing is shown from it yet.
-
-When it's on, each time your myCourseBin changes the extension sends the developer's server (Cloudflare Workers) the term and, for each section in your myCourseBin: the course, section number, type, instructors, whether it is registered, scheduled or only added, and how many of its seats were filled. It also sends the names of your majors and minors and the catalogue year you started under. The server keeps one copy per day (the last one), with the date.
-
-This is filed under a random ID made by your browser, which isn't linked to you or to anything else. Your name, USC ID, NetID, email, grades, GPA, STARS report and past courses are never sent. Turning it off deletes all of it from the server right away. Data is deleted by itself four years after it was sent. It is used only for these purposes, and it is never sold or shared. If anything is ever shown from it, only totals for groups of at least 10 students will be shown, never one student's data.
-
 ## Text alerts
 
-Text alerts are not switched on in the extension yet. Until they are, the Notify Me popup has no phone field and no phone numbers are collected. Once on, text alerts are optional and only sent if you enter a mobile number and check the consent box in the Notify Me popup. You get one text each time a seat opens in a section you're watching, at most once an hour, for up to 120 days. Msg & data rates may apply. Reply **STOP** to stop all texts, or **HELP** for help. No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. Text messaging opt-in data and consent are not shared with any third parties, except Twilio, which delivers the texts. Full terms: https://stonewu777dw.github.io/webreg-helper-privacy/terms
+Text alerts are not switched on in the extension yet. Until they are, the Notify Me popup has no phone field and no phone numbers are collected. Once on, text alerts are optional and only sent if you enter a mobile number and check the consent box in the Notify Me popup, then reply **YES** to the confirmation text. You get a text when a seat opens in a section you're watching, at most once an hour and up to 5 texts per section, for up to 120 days. Msg & data rates may apply. Reply **STOP** to stop all texts, or **HELP** for help. No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. Text messaging opt-in data and consent are not shared with any third parties, except Twilio, which delivers the texts. Full terms: https://stonewu777dw.github.io/webreg-helper-privacy/terms
 
 ## Buy me a Coffee
 
@@ -58,8 +52,8 @@ The **Support WebReg Helper** coffee button is a plain link that opens buymeacof
 
 ## Sharing
 
-The developer receives only what you send through Notify Me (your email, and your phone number if you opt in to texts) and, if you turn it on, your anonymous course data. None of it is ever sold or shared. The sites and services above only get what's listed, and their own privacy policies apply.
+The developer receives only what you send through Notify Me (your email, and your phone number if you opt in to texts). None of it is ever sold or shared. The sites and services above only get what's listed, and their own privacy policies apply.
 
 ## Contact
 
-Questions: stonewu777@gmail.com
+Questions: support@worthathought.work
